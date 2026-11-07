@@ -1,0 +1,6 @@
+# Documentation
+README.md export-ignore
+
+# Dotfiles
+.gitignore export-ignore
+.gitattributes export-ignore

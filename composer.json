@@ -1,0 +1,39 @@
+{
+    "name": "youvision/think-address-parser",
+    "description": "ThinkPHP 8 收货地址智能解析包，从非结构化文本中提取姓名、手机号、身份证号、邮编、省市区与详细地址，行政区划数据来自 hejunjie/china-division。",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "thinkphp",
+        "thinkphp8",
+        "address",
+        "parser",
+        "china-division",
+        "地址解析"
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-mbstring": "*",
+        "topthink/framework": "^8.0",
+        "hejunjie/china-division": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Youvision\\ThinkAddressParser\\": "src/"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "Youvision\\ThinkAddressParser\\Service"
+            ],
+            "config": {
+                "address-parser": "config/address-parser.php"
+            }
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
