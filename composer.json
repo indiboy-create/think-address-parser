@@ -1,5 +1,15 @@
 {
     "name": "youvision/think-address-parser",
+    "authors": [
+        {
+            "name": "indiboy-create",
+            "homepage": "https://github.com/indiboy-create"
+        },
+        {
+            "name": "AI",
+            "role": "Developer"
+        }
+    ],
     "description": "ThinkPHP 8 收货地址智能解析包，从非结构化文本中提取姓名、手机号、身份证号、邮编、省市区与详细地址，行政区划数据来自 hejunjie/china-division。",
     "type": "library",
     "license": "MIT",
